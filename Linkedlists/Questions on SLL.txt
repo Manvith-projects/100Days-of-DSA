@@ -1,0 +1,24 @@
+🔹 Interview / Recruitment Questions on SLL
+
+1. What is the difference between an array and a linked list?
+
+    Array: Fixed size, random access (O(1)), costly insertion/deletion.
+
+    Linked List: Dynamic size, sequential access (O(n)), efficient insertion/deletion.
+
+2. What is the time complexity of insertion and deletion in a linked list?
+
+    At head → O(1)
+
+    At end → O(n) (unless tail pointer is maintained)
+
+    Search → O(n)
+
+3. How do you detect a cycle in a linked list?
+
+    Use Floyd’s Cycle Detection Algorithm (Tortoise & Hare).
+
+4. Why linked lists are preferred over arrays in some cases?
+
+    When frequent insertions/deletions are required.
+
